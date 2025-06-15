@@ -4,8 +4,6 @@ This is an AI-powered web application built with **Streamlit** that predicts pos
 
 <br>
 
-![App Screenshot](https://user-images.githubusercontent.com/your-image-link-here.png)
-
 ---
 
 ## 🔍 Features
@@ -31,4 +29,13 @@ This is an AI-powered web application built with **Streamlit** that predicts pos
 ---
 
 ## 📁 Project Structure
+
+├── app.py # Streamlit app code
+├── model.pkl # Trained ML model
+├── label_encoder.pkl # Label encoder for diseases
+├── symptom_list.pkl # List of symptoms used in training
+├── symptom-severity.csv # Severity scores for symptoms
+├── symptom_precaution.csv # Precautions for each disease
+├── symptom_Description.csv # Descriptions for each disease
+└── README.md # Project documentation
 
