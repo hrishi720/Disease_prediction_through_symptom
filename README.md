@@ -6,12 +6,6 @@ An intelligent and interactive web app that predicts diseases based on user-sele
 
 ---
 
-### 🔮 Preview
-
-![App Screenshot](https://github.com/hrishi720/Disease_prediction_through_symptom/assets/YOUR_IMAGE_LINK_HERE)
-
----
-
 ### 🚀 Features
 
 * 🔍 Predict disease from multiple symptoms
@@ -63,7 +57,7 @@ streamlit run app.py
 ### 🌐 Live Deployment (Free)
 
 Deployed using **Streamlit Cloud**:
-🔗 [Check Live App](https://hrishi720-disease-prediction.streamlit.app)
+🔗 [Check Live App](https://diseasepredictionthroughsymptom-bft8cappl2epu9vwy3tyt5x.streamlit.app/)
 
 ---
 
@@ -82,7 +76,6 @@ Deployed using **Streamlit Cloud**:
 Made with ❤️ by **Hrishi**
 
 * 🌐 GitHub: [@hrishi720](https://github.com/hrishi720)
-* 💋 LinkedIn: [Your Profile](https://linkedin.com/in/YOUR-LINK)
 
 ---
 
