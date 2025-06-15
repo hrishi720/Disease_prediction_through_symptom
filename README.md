@@ -1,41 +1,91 @@
-# 🩺 Disease Prediction through Symptoms
+# 📊 AI-Based Disease Prediction App
 
-This is an AI-powered web application built with **Streamlit** that predicts possible diseases based on selected symptoms and provides precautionary advice and descriptions.
+An intelligent and interactive web app that predicts diseases based on user-selected symptoms and provides relevant medical information like precautions and severity. Powered by **Machine Learning**, styled with a smooth **UI**, and deployed with ease.
 
-<br>
-
----
-
-## 🔍 Features
-
-- ✅ Predict disease from selected symptoms using a trained ML model.
-- 💊 Suggests precautions for the predicted disease.
-- 📖 Displays a short description of each selected symptom.
-- ⚠️ Calculates severity score based on symptom weights.
-- 🎨 Clean, modern, and interactive UI powered by Streamlit.
+> ✅ Built with **Python**, **Scikit-learn**, and **Streamlit**
 
 ---
 
-## 🧠 How It Works
+### 🔮 Preview
 
-- **Input**: User selects multiple symptoms.
-- **Model**: A `RandomForestClassifier` trained on a synthetic dataset predicts the most probable disease.
-- **Output**:
-  - Predicted disease
-  - Symptom descriptions
-  - Precautionary steps
-  - Severity score
+![App Screenshot](https://github.com/hrishi720/Disease_prediction_through_symptom/assets/YOUR_IMAGE_LINK_HERE)
 
 ---
 
-## 📁 Project Structure
+### 🚀 Features
 
-├── app.py # Streamlit app code
-├── model.pkl # Trained ML model
-├── label_encoder.pkl # Label encoder for diseases
-├── symptom_list.pkl # List of symptoms used in training
-├── symptom-severity.csv # Severity scores for symptoms
-├── symptom_precaution.csv # Precautions for each disease
-├── symptom_Description.csv # Descriptions for each disease
-└── README.md # Project documentation
+* 🔍 Predict disease from multiple symptoms
+* 💬 Auto-display descriptions for selected symptoms
+* 💊 Shows precautions for detected disease
+* ⚠️ Severity score calculated using symptom weights
+* 🎨 Responsive, clean UI (Streamlit powered)
 
+---
+
+### 📂 Files & Structure
+
+```
+├── app.py                    # Streamlit app logic
+├── model.pkl                # Trained RandomForest model
+├── label_encoder.pkl        # Encoded disease labels
+├── symptom_list.pkl         # List of trained symptoms
+├── symptom-severity.csv     # Weight data for symptoms
+├── symptom_precaution.csv   # Precautions for diseases
+├── symptom_Description.csv  # Description for diseases
+└── README.md                # This file
+```
+
+---
+
+### 🛠️ How to Run Locally
+
+1. **Clone the Repo**
+
+```bash
+git clone https://github.com/hrishi720/Disease_prediction_through_symptom.git
+cd Disease_prediction_through_symptom
+```
+
+2. **Install Requirements**
+
+```bash
+pip install -r requirements.txt
+```
+
+3. **Run the App**
+
+```bash
+streamlit run app.py
+```
+
+---
+
+### 🌐 Live Deployment (Free)
+
+Deployed using **Streamlit Cloud**:
+🔗 [Check Live App](https://hrishi720-disease-prediction.streamlit.app)
+
+---
+
+### 🧠 Tech Stack
+
+* Python
+* Pandas
+* Scikit-learn
+* Streamlit
+* Pickle
+
+---
+
+### 🤛‍♂️ Author
+
+Made with ❤️ by **Hrishi**
+
+* 🌐 GitHub: [@hrishi720](https://github.com/hrishi720)
+* 💋 LinkedIn: [Your Profile](https://linkedin.com/in/YOUR-LINK)
+
+---
+
+### 📄 License
+
+This project is open source under the [MIT License](LICENSE).
