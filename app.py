@@ -91,7 +91,8 @@ if st.button("🔍 Predict Disease"):
         st.warning("⚠️ Please select at least one symptom.")
     else:
         disease = predict_disease(selected)
-        st.success(f"🧾 **Predicted Disease:** {disease}")
+        st.success(f"🧾 Predicted Disease: {disease}")
+        st.balloons()
 
         # Disease Description
         st.markdown("### 🧬 Disease Description")
